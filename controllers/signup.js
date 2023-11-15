@@ -21,7 +21,7 @@ async function InsertVerifyUser(name, email, password) {
             token: token,
         });
 
-        const activationLink = `http://localhost:5000/signup/${token}`;
+        const activationLink = `https://auth-backend-tkw2.onrender.com/signup/${token}`;
         const content = `<h4>Hi, there</h4>
         <h5>Welcome to the app</h5>
         <p>Thank you for signing up. click on the below link to activate</p>
